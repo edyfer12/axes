@@ -1,5 +1,11 @@
 /* Add declarations to universal selector */
 
+* {
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 /* Add declarations to the class selector */
 
