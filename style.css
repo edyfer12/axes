@@ -1,7 +1,6 @@
 /* Add declarations to universal selector */
 
 * {
-    border: 1px solid black;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,6 +19,7 @@
     flex: 1;
     padding: 40px 0;
     text-align: center;
+    border: 1px solid black;
 }
 
 /* Add declaration to the chaining selector */
