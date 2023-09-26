@@ -9,14 +9,33 @@
 
 /* Add declarations to the class selector */
 
+.flex-container {
+    display: flex;
+}
 
 /* Add declarations to the class selector */
 
+.flex-item {
+    height: 100px;
+    flex: 1;
+    padding: 40px 0;
+    text-align: center;
+}
 
 /* Add declaration to the chaining selector */
 
+.flex-item.first {
+    background-color: hotpink;
+}
 
 /* Add declaration to the chaining selector */
 
+.flex-item.second {
+    background-color: yellowgreen;
+}
 
 /* Add declaration to the chaining selector */
+
+.flex-item.third {
+    background-color: coral;
+}
